@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>Tugas PemWeb</title>
+        <style>
+
+            html{
+                font-family: arial;
+            }
+            #container {
+                background-color:rgb(3, 2, 2);
+                border: 1px black solid;
+                width: 900px;
+                margin:auto;
+                padding: 10px;
+            }
+
+            #header {
+                background-color:white;
+                border: 1px black solid;
+                height: 100px;
+              
+            }
+
+            #menu {
+                background-color:white;
+                border: 1px black solid;
+                height: 50px;
+                margin-top: 10px;
+            }
+
+            #menu ul {
+                margin-top: 10px;
+                margin-left: -20px;
+            }
+
+            #menu li {
+                background-color:grey;
+                border: 1px black solid;
+                list-style: none;
+                margin-right: 5px;
+                padding: 5px 10px 5px 10px;
+                float: left;
+            }
+
+            #menu li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+            }
+
+            #menu li a:hover {
+                text-decoration: underline;
+            }
+
+            #leftbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                margin-right: 10px;
+                float: left;
+            }
+
+            #leftbar ul {
+                margin-left: -40px;
+            }
+
+            #leftbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #leftbar li a:link, a:visited {
+                text-decoration: none;
+                color: black;
+            }
+
+            #rightbar {
+                background-color:white;
+                border: 1px black solid;
+                width: 23%;
+                margin-top: 10px;
+                float: right;
+            }
+
+            #rightbar ul {
+                margin-left: -40px;
+            }
+
+            #rightbar li {
+                list-style: none;
+                padding: 5px;
+            }
+
+            #content {
+                background-color:white;
+                border: 1px black solid;
+                width: 51%;
+                padding-bottom: 50px;
+                margin-top: 10px;
+                float: left;
+            }
+
+            #footer {
+                background-color:white;
+                border: 1px black solid;
+                margin-top: 10px;
+            }
+
+            #footer p {
+                font-weight: bold;
+                padding:0 20px 0 20px;
+            }
+
+            .judul {
+                font-size: 25px;
+                font-weight: bold;
+                padding: 20px 20px 0 20px;
+            }
+
+            .isi {
+                font-size: 12px;
+                padding: 0 20px 10px 20px;
+            }
+
+            .sidebar {
+                font-weight: bold;
+                padding:10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <div class="judul">Pencak silat</div>
+                <div class="isi">sejarah Pencak silat</div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div id="leftbar">
+                <div class="sidebar">Leftbar</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Sejarah</a></li>
+                        <li><a href="#">Pengertian</a></li>
+                        <li><a href="#">organisasi</a></li>
+                        <li><a href="#">Teknik Dasar Pencak Silat</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightbar">
+                <div class="sidebar">Organisasi Pencak Silat</div>
+                <div class="isi">
+                    <ul>
+                        <li><a href="#">Persaudaraan Setia Hati Terate</a></li>
+                        <li><a href="#">Tapak suci</a></li>
+                        <li><a href="#">Persatuan Rasa Tunggal</a></li>
+                        <li><a href="#">Persaudaraan Setia Hati Tunas Muda Winongo</a></li>
+                        <li><a href="#">IKS PI</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                <div class="judul">Sejarah</div>
+                <div class="isi">
+                    <p>
+                        pencak silat di dunia berasal dari rumpun Melayu. Di semenanjung Malaysia dan Singapura, seni bela diri ini disebut dengan nama gayong dan cekak. Di Thailand sendiri, pencak silat disebut pasilat. Namun, seni bela diri ini pertama kali diciptakan di Indonesia bahkan sudah ada sejak kejayaan kerajaan Sriwijaya.
+                    </p>
+                    <ul>
+                        <li>Pengertian</li>
+                        <li>organisasi</li>
+                        <li>Teknik dasar pencak silat</li>
+                    </ul>
+                    <p>
+                        Dikutip dari buku 'Pendidikan Jasmani Olahraga, dan Kesehatan' karya Asep Kurnia Nenggala, pencak silat adalah olahraga yang menuntut kedisiplinan, baik ketika sedang berlatih maupun sedang bertanding. Agar kedisiplinan itu terwujud, ada beberapa tata tertib dalam seni bela diri ini.
+                    </p>
+                </div>
+            </div>
+
+            <div style="clear:both;"></div>
+
+            <div id="footer">
+                <p>Bagian Footer</p>
+            </div>
+        </div>
+    </body>
+</html>
